@@ -7,8 +7,8 @@ The code in Matlab allows to compute the least weighted squares (LWS) estimator 
 Feel free to use or modify the code.
 
 ## Authors
-*Jan Tichavský, The Czech Academy of Sciences, Institute of Computer Science
-*Jan Kalina, The Czech Academy of Sciences, Institute of Computer Science
+ * Jan Tichavský, The Czech Academy of Sciences, Institute of Computer Science
+ * Jan Kalina, The Czech Academy of Sciences, Institute of Computer Science
 
 ## Contact
 
