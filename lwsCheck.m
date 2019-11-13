@@ -1,9 +1,9 @@
-### The function lwsCheck() computes the LWS estimator for the given dataset.
+%%% The function lwsCheck() computes the LWS estimator for the given dataset.
 
 function [bb] = lwsCheck(data)
 [N, dim] = size(data);
-### here we use linearly decreasing weight function
-### the user may replace this choice by another weight function
+%%% here we use linearly decreasing weight function
+%%% the user may replace this choice by another weight function
 weight = ones(1, N) - ((1:N)-1)/N;
 weight(1, floor(N*3/4):N) = 0;
 theBestB = 0;

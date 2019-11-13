@@ -1,15 +1,15 @@
-### This is the main file, which should be self-explaining using this description:
-### Code for computing the least squares, least trimmed squares, and least weighted squares.
-### It contains the presentation of the results including graphical output.
-### The input data file has to fulfil:
-### - format *.txt
-### - individual observations in rows
-### - values separated by spaces
-### - the first column corresponds to the index of the observation (i=1,...,n)
-### - e.g. 2 5 5 5 in the input file corresponds to the second observation equal to (5,5,5) 
-### - the second column corresponds to the response variable
-### - the response is not allowed to be degenerated (i.e. with a zero variance)
-### - we assume the matrix of the regressors to be regular
+%%% This is the main file, which should be self-explaining using this description:
+%%% Code for computing the least squares, least trimmed squares, and least weighted squares.
+%%% It contains the presentation of the results including graphical output.
+%%% The input data file has to fulfil:
+%%% - format *.txt
+%%% - individual observations in rows
+%%% - values separated by spaces
+%%% - the first column corresponds to the index of the observation (i=1,...,n)
+%%% - e.g. 2 5 5 5 in the input file corresponds to the second observation equal to (5,5,5) 
+%%% - the second column corresponds to the response variable
+%%% - the response is not allowed to be degenerated (i.e. with a zero variance)
+%%% - we assume the matrix of the regressors to be regular
 
 clear all;
 canContinue = false;
