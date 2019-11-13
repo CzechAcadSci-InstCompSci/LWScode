@@ -1,4 +1,3 @@
-clear all;
 ### This is the main file, which should be self-explaining using this description:
 ### Code for computing the least squares, least trimmed squares, and least weighted squares.
 ### It contains the presentation of the results including graphical output.
@@ -12,6 +11,7 @@ clear all;
 ### - the response is not allowed to be degenerated (i.e. with a zero variance)
 ### - we assume the matrix of the regressors to be regular
 
+clear all;
 canContinue = false;
 while(~canContinue) 
     try
