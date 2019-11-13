@@ -6,6 +6,21 @@ The code in Matlab allows to compute the least weighted squares (LWS) estimator 
 
 Feel free to use or modify the code.
 
+## Requirements
+
+You need the file fastlts.m to run the full code, which compares the LWS with the 
+least trimmed squares (LTS) estimator. 
+Available at https://jp.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/17554/versions/5/previews/fastlts.m/index.html
+
+## Usage
+
+ * mainLws.m
+	Main file, which reads an external data file, runs the estimates for the least squares, LTS and LWS estimators,
+and presents their results. It also presents the resulting LWS estimator graphically.
+
+ * lwsCheck.m
+         The function for computing the LWS estimator for the given dataset.          
+
 ## Authors
  * Jan Tichavský, The Czech Academy of Sciences, Institute of Computer Science
  * Jan Kalina, The Czech Academy of Sciences, Institute of Computer Science
