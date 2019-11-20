@@ -1,4 +1,4 @@
-# LWS code
+# LWS code version 1.0
 
 Computation of the least weighted squares estimator
 
